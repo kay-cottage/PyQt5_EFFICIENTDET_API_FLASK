@@ -1,2 +1,2 @@
-# API_FLASK_EFFICIENTDET
+# PyQt5_EFFICIENTDET_API_FLASKNTDET
 基于Efficientdet的深度学习细胞检测微信小程序（Flask后台）
