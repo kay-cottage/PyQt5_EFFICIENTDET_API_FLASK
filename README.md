@@ -28,15 +28,19 @@
 
 #### 1. 项目由目录 model_data/，output/，outputcut/组成
 
-model_data：目录下存放模型文件，其中模型文件请统一命名为model.h5并放置在该目录下。(模型文件请在[efficientdet-d0-voc.h5](https://github.com/bubbliiiing/efficientdet-keras/releases/download/v1.0/efficientdet-d0-voc.h5) 即d0版本下迁移学习训练得到)
+* model_data：目录下存放模型文件，其中模型文件请统一命名为model.h5并放置在该目录下。(模型文件请在[efficientdet-d0-voc.h5](https://github.com/bubbliiiing/efficientdet-keras/releases/download/v1.0/efficientdet-d0-voc.h5) 即d0版本下迁移学习训练得到)
 
-该目录下voc_classes.txt存放用以检测物体的种类信息，使用前请确认里面的信息是否正确，大部分报错原因都是因为模型与voc_classes.txt中的类别信息不匹配
+* 该目录下voc_classes.txt存放用以检测物体的种类信息，使用前请确认里面的信息是否正确，大部分报错原因都是因为模型与voc_classes.txt中的类别信息不匹配；
 
-output/：目录下存放检测后的图象，输入图象被检测后会将检测出的整张图象保存至该目录下
+* output/：目录下存放检测后的图象，输入图象被检测后会将检测出的整张图象保存至该目录下
 
-outputcut/：该目录下存放检测并且分割后的图象
+* outputcut/：该目录下存放检测并且分割后的图象
 
-模型文件可以点击从这里下载（记得重命名为model.h5）：[efficientdet-d0-voc.h5](https://github.com/bubbliiiing/efficientdet-keras/releases/download/v1.0/efficientdet-d0-voc.h5)
+* 模型文件可以点击从这里下载（记得重命名为model.h5）：[efficientdet-d0-voc.h5](https://github.com/bubbliiiing/efficientdet-keras/releases/download/v1.0/efficientdet-d0-voc.h5)
+
+
+* 更换模型后请记得重启程序
+
 
 #### 2. 更多信息：
 
@@ -44,4 +48,6 @@ outputcut/：该目录下存放检测并且分割后的图象
 
 更多信息，相关视频会在那里更新
 
-最后，该项目为个人想法的简单实现，不喜勿喷，谢谢哈
+最后，该项目为个人想法的简单实现
+
+不喜勿喷，谢谢哈
